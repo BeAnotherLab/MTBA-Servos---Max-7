@@ -2,10 +2,12 @@
 Machine to Be Another classical setup for Mac and Windows running on Max 7.
 RUNS ON MAC AND 32-bit version of Max for WINDOWS
 
----TO INSTALL---
+---
+TO INSTALL
+You need to have Max 7 installed in your computer.
 
 1. Install Oculus runtime ver. 0.44 - https://developer.oculus.com/downloads/
-2. Install the oculus Max object - https://github.com/grrrwaaa/max_oculus
+2. Install the oculus Max object on Documents/Max 7/Packages - https://github.com/grrrwaaa/max_oculus
 3. Install Maxuino on Documents/Max 7/Library - https://github.com/maxuino/maxuino
 4. Open MTBA.maxpat, the classical Machine to Be Another setup: 
     a. select serial port
@@ -13,6 +15,9 @@ RUNS ON MAC AND 32-bit version of Max for WINDOWS
     c. press start
     d. spacebar to recenter, esc to run in Oculus, return to dim on and off.
 
----TESTED ON---
+---
+TESTED ON
 
 Macbook 2.3 Ghz, 16 RAM, OSX Yosemite - Framerate of ~60fps.
+
+**Windows still uses the Quicktime video library for default on Max 7, which drastically reduces the performance.
